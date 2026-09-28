@@ -1,4 +1,6 @@
-streamlit
-scikit-learn
+streamlit>=1.30
+# The pickled model/vectorizer must be loaded with the scikit-learn version that
+# created them. Retrain with the notebook if you change this pin.
+scikit-learn==1.9.1
 numpy
 scipy

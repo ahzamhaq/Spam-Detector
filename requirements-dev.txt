@@ -1,0 +1,6 @@
+# Extra packages needed only to run/retrain Spam Detector.ipynb (not for deployment)
+-r requirements.txt
+pandas
+matplotlib
+jupyter
+nbconvert
